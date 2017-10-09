@@ -1,0 +1,52 @@
+<% provide(:title, "About") %>
+<%= render "layouts/navbar2" %>
+<div class="container-fluid">
+    <div class="row d-flex d-md-block flex-nowrap wrapper">
+        <%= render "layouts/leftmenu" %>
+        <main class="col-md-9 float-left col px-5 pl-md-2 pt-2 main">
+            <a href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
+            <div class="page-header">
+                <h2>Tên nhóm: Lab01-1412064-1412069</h2>
+            </div>
+            <p class="lead">Danh sách thành viên nhóm:</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <button role="button" class="btn btn-danger">
+                        Thành viên 1
+                    </button>
+                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/21270798_880066965500671_6010126163083049474_n.jpg?oh=ddd3a27024a4c83137551e5aba97d11f&oe=5A76552B" width="400" height="400" class="img-thumbnail">
+                    <hr>
+                    <b><p>MSSV: 1412064</p>
+                    <p>Họ và Tên: Đoàn Văn Cường</p></b>
+                </div>
+                <div class="col-md-6">
+                    <button role="button" class="btn btn-danger">
+                       Thành viên 2
+                    </button>
+                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/10888767_640271072765697_8488425076484681519_n.jpg?oh=cd62b2a16011b688c2421a327de15b71&oe=5A7FE357" width="400" height="200" class="img-thumbnail">
+                    <hr>
+                    <b><p>MSSV: 1412069</p>
+                    <p>Họ và Tên: Trần Việt Cường</p></b>
+                </div>
+                <div class="col-md-6">
+                    <hr>
+                    <h2>Địa chỉ liên hệ:</h2>
+                        <address>
+                            <strong>Khu tự học dãy C và B</strong><br>
+                                    Trường Đại học Khoa học Tự nhiên TPHCM<br>
+                                    227, Nguyễn Văn Cừ, Quận 5, TP Hồ Chí Minh, Việt Nam<br>
+                            <abbr>Phone:</abbr> +84 0963767902
+                        </address>
+                        <hr>
+                </div>
+                <div class="col-md-6">
+                    <hr>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1132.1399016474256!2d106.68220812294426!3d10.762673994770754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43900f1d4539a3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Egbmhpw6puIFRQSENN!5e0!3m2!1svi!2s!4v1507499016999" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <hr>
+                </div>
+            </dir>
+        </main>
+    </div>
+</div>
+<%= render "layouts/footer" %>

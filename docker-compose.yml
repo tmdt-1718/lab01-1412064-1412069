@@ -1,0 +1,17 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    volumes:
+      - .:/webapp
+    ports:
+      - 3000:3000
+    links:
+      - db
+    command: sh /webapp/scripts/startup.sh
+    env_file: .env
+    stdin_open: true
+    tty: true
+  db:
+    image: postgres
+    env_file: .env
